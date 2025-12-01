@@ -4,12 +4,9 @@ Especificação de Requisitos - Eco Oportunidades (ODS 11)
 
 O sistema possui dois níveis de acesso distintos, garantindo a segurança e a integridade das operações:
 
-🟢 1.1 Candidato
-Permissões: Visualizar vagas/cursos r realizar inscrições
+🟢 1.1 Candidato - Permissões: Visualizar vagas/cursos e realizar inscrições
 
-🛡️ 1.3 Empresa
-
-Permissões: Responsável principal pelo cadastro de Vagas e Cursos de Capacitação.
+🛡️ 1.2 Empresa - Permissões: Responsável principal pelo cadastro de Vagas e Cursos de Capacitação.
 
 2. Requisitos Funcionais (RF)
 
@@ -27,7 +24,7 @@ Módulo de Vagas (Oportunidades)
 
 - [RF04] Listagem de Vagas: Exibir listagem pública de vagas com destaque visual para oportunidades sustentáveis e localização.
 
-- Módulo de Capacitação (Cursos)
+Módulo de Capacitação (Cursos)
 
 - [RF05] Gestão de Cursos: Permitir que o Administrador (e opcionalmente Empresas parceiras) cadastre cursos de capacitação.
 
