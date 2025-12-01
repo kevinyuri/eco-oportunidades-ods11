@@ -1,6 +1,6 @@
-Especificação de Requisitos - Eco Oportunidades (ODS 11)
+# Especificação de Requisitos - Eco Oportunidades (ODS 11)
 
-1. Definição de Atores (Perfis de Usuário)
+## 1. Definição de Atores (Perfis de Usuário)
 
 O sistema possui dois níveis de acesso distintos, garantindo a segurança e a integridade das operações:
 
@@ -8,15 +8,15 @@ O sistema possui dois níveis de acesso distintos, garantindo a segurança e a i
 
 🛡️ 1.2 Empresa - Permissões: Responsável principal pelo cadastro de Vagas e Cursos de Capacitação.
 
-2. Requisitos Funcionais (RF)
+## 2. Requisitos Funcionais (RF)
 
-Módulo de Autenticação e Perfil
+### Módulo de Autenticação e Perfil
 
 - [RF01] Cadastro de Usuário: O sistema deve permitir o cadastro informando Nome, Email, Senha, Telefone e Perfil (Candidato ou Empresa).
 
 - [RF02] Login: Autenticação via E-mail e Senha (JWT).
 
-Módulo de Vagas (Oportunidades)
+### Módulo de Vagas (Oportunidades)
 
 - [RF03] Publicar Vaga: Permitir que usuários com perfil Empresa cadastrem novas vagas.
 
@@ -24,7 +24,7 @@ Módulo de Vagas (Oportunidades)
 
 - [RF04] Listagem de Vagas: Exibir listagem pública de vagas com destaque visual para oportunidades sustentáveis e localização.
 
-Módulo de Capacitação (Cursos)
+### Módulo de Capacitação (Cursos)
 
 - [RF05] Gestão de Cursos: Permitir que o Administrador (e opcionalmente Empresas parceiras) cadastre cursos de capacitação.
 
@@ -32,7 +32,7 @@ Módulo de Capacitação (Cursos)
 
 - [RF06] Inscrição em Curso: Permitir que Candidatos garantam vaga nos cursos ofertados.
 
-3. Requisitos Não-Funcionais (RNF)
+## 3. Requisitos Não-Funcionais (RNF)
 
 - [RNF01] Usabilidade: O formulário de cadastro deve ser intuitivo, com feedbacks visuais claros (Toast notifications) e validação em tempo real.
 
