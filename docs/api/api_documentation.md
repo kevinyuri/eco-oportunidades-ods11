@@ -1,6 +1,6 @@
-#Documentação da API - Eco Oportunidades
+# Documentação da API - Eco Oportunidades
 
-##1. Visão Geral
+## 1. Visão Geral
 
 Esta API RESTful foi desenvolvida em .NET 8.0 para alimentar a plataforma Eco Oportunidades. Ela gerencia o fluxo de dados entre o frontend (Angular) e o banco de dados (Azure SQL), com foco em empregabilidade local e sustentável (ODS 11).
 
@@ -10,9 +10,9 @@ Autenticação: Bearer Token (JWT)
 
 Formato de Dados: JSON
 
-##2. Autenticação e Usuários
+## 2. Autenticação e Usuários
 
-###Registrar Novo Usuário
+### Registrar Novo Usuário
 
 Cria uma conta para Candidato ou Empresa.
 
@@ -32,7 +32,7 @@ Corpo da Requisição (JSON):
 }
 
 
-###Login (Autenticação)
+### Login (Autenticação)
 
 Gera um token JWT para acesso aos recursos protegidos.
 
@@ -53,9 +53,9 @@ Retorno (200 OK):
 }
 
 
-##3. Módulo de Vagas (Oportunidades)
+## 3. Módulo de Vagas (Oportunidades)
 
-###Listar Vagas
+### Listar Vagas
 
 Retorna todas as vagas disponíveis.
 
@@ -63,7 +63,7 @@ Endpoint: GET /api/Vagas
 
 Acesso: Público
 
-###Criar Nova Vaga
+### Criar Nova Vaga
 
 Cadastra uma oportunidade de emprego.
 
@@ -86,21 +86,21 @@ Corpo da Requisição (JSON):
 }
 
 
-###Detalhes da Vaga
+### Detalhes da Vaga
 
 Endpoint: GET /api/Vagas/{id}
 
-###Atualizar Vaga
+### Atualizar Vaga
 
 Endpoint: PUT /api/Vagas/{id}
 
-###Excluir Vaga
+### Excluir Vaga
 
 Endpoint: DELETE /api/Vagas/{id}
 
-##4. Módulo de Cursos (Capacitação Verde)
+## 4. Módulo de Cursos (Capacitação Verde)
 
-###Listar Cursos
+### Listar Cursos
 
 Retorna cursos de capacitação profissional.
 
@@ -108,7 +108,7 @@ Endpoint: GET /api/Cursos
 
 Acesso: Público
 
-###Criar Curso
+### Criar Curso
 
 Cadastra um novo curso ou oficina.
 
@@ -129,9 +129,9 @@ Corpo da Requisição (JSON):
 }
 
 
-##5. Módulo de Inscrições
+## 5. Módulo de Inscrições
 
-###Realizar Inscrição
+### Realizar Inscrição
 
 Inscreve o usuário logado em uma Vaga ou Curso.
 
@@ -149,7 +149,7 @@ Corpo da Requisição (JSON):
 }
 
 
-##6. Códigos de Status HTTP Utilizados
+## 6. Códigos de Status HTTP Utilizados
 
 200 OK: Requisição realizada com sucesso.
 
@@ -166,3 +166,4 @@ Corpo da Requisição (JSON):
 404 Not Found: Recurso não encontrado.
 
 500 Internal Server Error: Erro inesperado no servidor.
+
